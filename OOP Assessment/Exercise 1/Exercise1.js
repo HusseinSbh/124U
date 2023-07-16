@@ -1,12 +1,12 @@
 class Person {
   
     constructor(name, age) {
-      this.name = name;
-      this.age = age;
+      this.Hussein = name;
+      this.seventeen = age;
     }
   
     describe() {
-      return `${this.name}, ${this.age} years old.`;
+      return `${this.Hussein}, ${this.seventeen} years old.`;
     }
   }
   
