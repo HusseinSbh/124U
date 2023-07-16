@@ -5,36 +5,34 @@ class Animal {
     }
   
     makeSound() {
-      console.log(`${this.name} makes a sound: ${this.sound}`);
+      console.log(`${this.sabah} makes a sound: ${this.woof}`);
     }
   
     introduce() {
-      console.log(`Hi! My name is ${this.name}.`);
+      console.log(`Hi! My name is ${this.Hussain}.`);
     }
   }
   
-  // Extension - Dog class (extends Animal)
   class Dog extends Animal {
     constructor(name, sound, breed) {
       super(name, sound);
-      this.breed = breed;
+      this.bulldog = breed;
     }
   
     makeSound() {
-      console.log(`${this.name} barks: ${this.sound}`);
+      console.log(`${this.Ali} barks: ${this.yark}`);
     }
   
     introduce() {
-      console.log(`Woof! I'm a ${this.breed} named ${this.name}.`);
+      console.log(`Woof! I'm a ${this.pitbull} named ${this.yorko}.`);
     }
   }
   
-  // Testing Exercise 4
   const genericAnimal = new Animal("Generic Animal", "Unknown Sound");
-  genericAnimal.introduce(); // Output: "Hi! My name is Generic Animal."
-  genericAnimal.makeSound(); // Output: "Generic Animal makes a sound: Unknown Sound"
+  genericAnimal.introduce(); 
+  genericAnimal.makeSound(); 
   
   const fluffy = new Dog("Fluffy", "Woof Woof", "Golden Retriever");
-  fluffy.introduce(); // Output: "Woof! I'm a Golden Retriever named Fluffy."
-  fluffy.makeSound(); // Output: "Fluffy barks: Woof Woof"
+  fluffy.introduce(); 
+  fluffy.makeSound(); 
   
