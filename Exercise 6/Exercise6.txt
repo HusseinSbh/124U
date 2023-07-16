@@ -1,0 +1,13 @@
+1. Class Name:
+We can name the class that will contain the objects within this game as Game.
+
+2. Objects in Pac-Man:
+The main objects that make up the game of Pac-Man are as follows:
+
+Pac-Man
+Ghosts
+Pellets (small and big)
+Walls
+Scoreboard
+3. Description of Pac-Man Class:
+Let's focus on the Pac-Man class and describe its key features using pseudocode:

@@ -1,0 +1,57 @@
+Pac-Man Class
+
+Class: PacMan
+  Properties:
+    x: Current x position
+    y: Current y position
+    direction: Current direction ('up', 'down', 'left', 'right')
+    lives: Remaining lives (default: 3)
+    score: Player's score (default: 0)
+    isMouthOpen: Pac-Man's mouth status (default: false)
+
+  Methods:
+    Constructor(x, y)
+      Set x and y positions
+      Set default direction to 'right'
+      Set default lives to 3
+      Set default score to 0
+      Set isMouthOpen to false
+
+    Method: move()
+      Update Pac-Man's position based on the current direction
+
+    Method: changeDirection(newDirection)
+      If the newDirection is valid (not moving back into itself):
+        Update Pac-Man's direction
+
+    Method: checkCollisions()
+      If Pac-Man collides with a pellet:
+        Increase the score
+        Remove the pellet from the game board
+
+      If Pac-Man collides with a ghost:
+        Decrease lives
+        Move Pac-Man back to the starting position
+
+      If Pac-Man collides with a wall:
+        Prevent further movement in that direction
+
+    Method: animateMouth()
+      Toggle Pac-Man's mouth status for animation
+
+    Method: updateGameState()
+      If all pellets are eaten:
+        Display "You Win!" message
+
+      If no lives left:
+        Display "Game Over" message
+
+Instantiate Pac-Man object
+  Create pacMan instance with starting position (x: 5, y: 10)
+
+// Usage of Pac-Man object
+pacMan.move()
+pacMan.changeDirection('up')
+pacMan.checkCollisions()
+pacMan.animateMouth()
+pacMan.updateGameState()

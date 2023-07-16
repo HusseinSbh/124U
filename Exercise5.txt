@@ -1,0 +1,26 @@
+-Spread Operator (...):
+The spread operator in JavaScript is denoted by three dots (...). It is used to unpack elements from arrays, objects, or strings.
+The spread operator allows us to spread the elements of an iterable (e.g., an array or object) into another array, object, or function arguments.
+It makes it easier to clone or merge arrays/objects and to pass multiple elements to a function as separate arguments.
+
+-'$' Symbol:
+In JavaScript, the dollar sign ($) symbol is commonly associated with libraries like jQuery. Within jQuery, the dollar sign is an alias for the
+jQuery object,making it easier to select and manipulate DOM elements.' However, outside of jQuery, the dollar sign does not have any special
+meaning in standard JavaScript.
+
+Static Method:
+A static method is a method that belongs to a class rather than an instance of the class. It is accessed directly from the class and not from an
+instance of the class. Static methods are useful for utility functions or operations that do not require access to instance-specific properties.
+They are defined using the static keyword in front of the method name.
+
+map Method:
+The map() method is an array method in JavaScript that creates a new array by applying a provided function to each element of the calling array.
+It transforms each element of the array and returns a new array with the transformed values. The original array remains unchanged.
+
+item Method:
+The term "item method" is not a standard JavaScript method. It is possible that it refers to a method used in a specific library or application,
+but without further context or specification, it is not possible to provide a detailed explanation.
+
+join Method:
+The join() method is an array method that concatenates all the elements of an array into a single string, separated by the specified separator.
+The method does not change the original array but returns a new string representing the joined elements.
