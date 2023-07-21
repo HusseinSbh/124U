@@ -16,7 +16,7 @@ public class LoginProgram {
             System.out.print("Enter password: ");
             String password = scanner.nextLine();
 
-            if (username.equals(correctUsername) & password.equals(correctPassword)) {
+            if (username.equals(correctUsername) && password.equals(correctPassword)) {
                 System.out.println("Welcome!");
                 break;
             } else {
